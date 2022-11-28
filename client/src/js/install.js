@@ -1,7 +1,7 @@
 const butInstall = document.getElementById('buttonInstall');
 window.addEventListener('beforeinstallprompt', (event) => {
-    console.log('hit')
-    console.log("event" + event)
+   
+   
     event.preventDefault();
     // Store the triggered events
     window.deferredPrompt = event;
@@ -12,7 +12,7 @@ window.addEventListener('beforeinstallprompt', (event) => {
 
 butInstall.addEventListener('click', async () => {
     const promptEvent = window.deferredPrompt;
-    // console.log(promptEvent)
+  
     if (!promptEvent) {
         return;
     }
@@ -28,6 +28,6 @@ butInstall.addEventListener('click', async () => {
 
 window.addEventListener('appinstalled', (event) => {
     // Clear prompt
-    console.log('install hit')
+  
     window.deferredPrompt = null;
 }); 
