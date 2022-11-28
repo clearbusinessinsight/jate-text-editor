@@ -1,6 +1,4 @@
-
-const butInstall = document.getElementById("buttonInstall");
-
+const butInstall = document.getElementById('buttonInstall');
 window.addEventListener('beforeinstallprompt', (event) => {
     console.log('hit')
     console.log("event" + event)
