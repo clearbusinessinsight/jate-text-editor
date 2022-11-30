@@ -154,7 +154,7 @@ Email choltz@cacbydesign.com to suggest an edit.
 * Chris Holtz
 * ✉️ Email: choltz@cacbydesign.com
 * GitHub Username: choltz@cacbydesign.com
-* GitHub Profile: https://github.com/cholts@cacbydesign.com
+* GitHub Profile: https://clearbusinessinsight.github.io/jate-text-editor/
 
 
 
