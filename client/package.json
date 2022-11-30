@@ -1,13 +1,14 @@
 {
-  "name": "jate",
+ "name": "jate",
   "scripts": {
     "dev": "webpack-dev-server",
     "build": "webpack --mode production",
-    "start": "webpack"
+    "start": "webpack --watch",
+    "heroku-postbuild": "webpack -p --config ./webpack.prod.config.js --progress"
   },
-  "author": "Chris Holtz",
-  "license": "OPEN",
- "devDependencies": {
+  "author": "2U",
+  "license": "UNLICENSED",
+  "devDependencies": {
     "@babel/core": "^7.15.0",
     "@babel/plugin-transform-runtime": "^7.15.0",
     "@babel/preset-env": "^7.15.0",
@@ -28,4 +29,3 @@
     "idb": "^6.1.2"
   }
 }
-
